@@ -1,0 +1,29 @@
+<%= form_for @game do |f| %>
+<p>
+  <%= f.label :playerA1 %> <br>
+  <%= f.text_field :playerA1 %>
+</p>
+<p>
+  <%= f.label :playerA2 %> <br>
+  <%= f.text_field :playerA2 %>
+</p>
+<p>
+  <%= f.label :playerB1 %> <br>
+  <%= f.text_field :playerB1 %>
+</p>
+<p>
+  <%= f.label :playerB2 %> <br>
+  <%= f.text_field :playerB2 %>
+</p>
+<p>
+  <%= f.label :ascore %> <br>
+  <%= f.text_field :ascore %>
+</p>
+<p>
+  <%= f.label :bscore %> <br>
+  <%= f.text_field :bscore %>
+</p>
+<p>
+  <%= f.submit %>
+ </p>
+<% end %>

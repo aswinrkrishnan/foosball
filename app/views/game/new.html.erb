@@ -1,0 +1,19 @@
+<div id="game_content">
+  <h1>New Game</h1>
+  <%= form_for :game, url: game_index_path do |f| %>
+  <table>
+  <tr>
+    <td><%= f.text_field :playerA1, class: "player"  %></td>
+    <td rowspan="2"><%= f.text_field :ascore, class: "score"  %> : <%= f.text_field :bscore, class: "score"  %></td>
+    <td class="right-align"><%= f.text_field :playerA2, class: "player"  %></td>
+  </tr>
+  <tr>
+    <td><%= f.text_field :playerB1 , class: "player" %></td>
+    <td class="right-align"><%= f.text_field :playerB2, class: "player" %></td>
+  </tr>
+  <tr>
+    <td colspan="3"><%= f.submit %></td>
+  </tr>
+</table>
+<% end %>
+</div>

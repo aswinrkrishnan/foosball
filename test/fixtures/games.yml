@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  playerA1: MyString
+  playerA2: MyString
+  playerB1: MyString
+  playerB2: MyString
+  ascore: 
+  bscore: 
+
+two:
+  playerA1: MyString
+  playerA2: MyString
+  playerB1: MyString
+  playerB2: MyString
+  ascore: 
+  bscore: 

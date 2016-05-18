@@ -1,0 +1,92 @@
+// Place all the styles related to the game controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.game{
+width: 75%;
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+  .scores{
+    margin: 0 35%;
+    div{
+      float: left;
+    }
+    .score{
+      padding: 0.1em 0;
+      width: 90px;
+      margin: 10px;
+      border-radius: 3px;
+      display: inline-block;
+      text-align: center;
+      font-size: 70px;
+      background: rgba(183,208,235,1);
+    background: -moz-linear-gradient(top, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,208,235,1)), color-stop(50%, rgba(112,172,235,1)), color-stop(51%, rgba(33,126,224,1)), color-stop(100%, rgba(32,124,229,1)));
+    background: -webkit-linear-gradient(top, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+    background: -o-linear-gradient(top, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+    background: -ms-linear-gradient(top, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+    background: linear-gradient(to bottom, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7d0eb', endColorstr='#207ce5', GradientType=0 );
+    }
+    .scoreSep{
+      padding: 1em 0;
+      vertical-align: middle;
+      font-size: 41px;
+      font-family: sans-serif;
+    }
+  }
+  .teams{
+    display: inline-block;
+    margin: 0 23%;
+    .b{
+      li{
+        text-align: left !important;
+    }
+    }
+    .team{
+      float: left;
+      li{
+          list-style-type: none;
+          text-align: right;
+          width: 120px;
+      		border: 1px solid #d6dce0;
+      		border-radius: .35em;
+      		padding: .5em 20px;
+      		line-height: 1.75;
+      }
+    }
+  }
+}
+
+.player{
+  text-align: right;
+  width: 120px;
+  border: 1px solid #d6dce0;
+  border-radius: .35em;
+  padding: .25em 50px;
+  line-height: 1.75;
+}
+.score{
+  padding: 0.1em 0;
+  width: 90px;
+  margin: 10px;
+  border-radius: 3px;
+  display: inline-block;
+  text-align: center;
+  font-size: 70px;
+  background: rgba(183,208,235,1);
+  background: -moz-linear-gradient(top, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(183,208,235,1)), color-stop(50%, rgba(112,172,235,1)), color-stop(51%, rgba(33,126,224,1)), color-stop(100%, rgba(32,124,229,1)));
+  background: -webkit-linear-gradient(top, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+  background: -o-linear-gradient(top, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+  background: -ms-linear-gradient(top, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+  background: linear-gradient(to bottom, rgba(183,208,235,1) 0%, rgba(112,172,235,1) 50%, rgba(33,126,224,1) 51%, rgba(32,124,229,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7d0eb', endColorstr='#207ce5', GradientType=0 );
+}
+.right-align{
+  text-align: left;
+}
+.effect2{
+  box-shadow: 0px 3px 5px 0px rgba(33,126,224,1);
+}
+.height10{
+  height: 10px;
+}

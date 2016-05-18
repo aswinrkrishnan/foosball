@@ -1,0 +1,24 @@
+<div id="game_content">
+<h1>Score</h1>
+<div class="game">
+  <div class="scores">
+    <div class="score"><%= @game.ascore %></div><div class="scoreSep">:</div>
+    <div class="score"><%= @game.bscore %></div>
+  </div>
+  <div class="teams">
+    <div class="team">
+      <ul>
+        <li><%= @game.playerA1 %></li>
+        <li><%= @game.playerA2 %></li>
+      </ul>
+    </div>
+    <div class="team b">
+      <ul>
+        <li><%= @game.playerB1 %></li>
+        <li><%= @game.playerB2 %></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<p><%= link_to 'Delete', game_path(@game), method: :delete, data: { confirm: 'Are you sure?' }, class: "button" %></p>
+</div>

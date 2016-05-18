@@ -1,0 +1,25 @@
+<div id="game_content">
+<h1>Games</h1>
+<table>
+<% @games.each do |game| %>
+<tr>
+  <td colspan="3" class="height10"><%= link_to "Game game.id", game %></td>
+</tr>
+<tr>
+  <td class="player"><%= game.playerA1 %></td>
+  <td rowspan="2"><span class="score"><%= game.ascore %></span> : <span class="score"><%= game.bscore %></span></td>
+  <td class="player right-align"><%= game.playerA2 %></td>
+</tr>
+<tr>
+  <td class="player"><%= game.playerB1 %></td>
+  <td class="player right-align"><%= game.playerB2 %></td>
+</tr>
+<tr>
+  <td colspan="3" class="effect2"></td>
+</tr>
+<tr>
+  <td colspan="3" class="height10"></td>
+</tr>
+<% end %>
+</table>
+</div>
